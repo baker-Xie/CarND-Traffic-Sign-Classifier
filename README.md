@@ -1,7 +1,5 @@
 # Traffic Sign Classifier
 
----
-
 In this project, a CNN is used to classify traffic signs [German Traffic Sign](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)).
 
 The goals / steps of this project are the following:

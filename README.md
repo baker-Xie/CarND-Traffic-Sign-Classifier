@@ -22,11 +22,13 @@ I used the numpy/pandas library to calculate summary statistics of the traffic s
 
 Here is an exploratory visualization of the data set. 
 
-![alt text][imgs/image3.jpg]
+![alt text][sources/1.png]
+
+![alt text][sources/3.png]
 
 It is a bar chart showing how many images in each categorys.
 
-![alt text][imgs/image3.jpg]
+![alt text][sources/2.png]
 
 ### Design and Test a Model Architecture
 

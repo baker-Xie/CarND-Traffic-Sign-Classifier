@@ -1,13 +1,8 @@
-#**Traffic Sign Recognition** 
-
-##Writeup Template
-
-###You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
+Traffic Sign Classifier
 
 ---
 
-**Build a Traffic Sign Recognition Project**
-In this project, a CNN is used to classify traffic signs(German Traffic Sign (http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)).
+In this project, a CNN is used to classify traffic signs[German Traffic Sign](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)).
 
 The goals / steps of this project are the following:
 * Load the data set (see below for links to the project data set)

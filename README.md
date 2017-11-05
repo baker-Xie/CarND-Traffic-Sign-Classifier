@@ -43,9 +43,9 @@ To add more data to the the data set, I used translation because it's very easy 
 
 As a last step, I normalized the pixel value to [-1,1] so that the data has mean zero and equal variance. Generally everyone will do this step. But in my opinion I think this step has little effect on the final result because all pixels have the same value range: [0,255].
 
-Here is an example of an original image and an augmented image:
+Here is an example of an original image and an augmented image: (The first 1 is the origin image and the rest are tranformed images)
 
-![alt text][imgs/image3.jpg]
+![image](https://github.com/baker-Xie/CarND-Traffic-Sign-Classifier/raw/master/sources/5.png)
 
 The difference between the original data set and the augmented data set is that the augmented data set have more images than the original data set.
 
@@ -92,8 +92,8 @@ After the above steps, my final model results were:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![image](https://github.com/baker-Xie/CarND-Traffic-Sign-Classifier/raw/master/pic/30kph.jpg) ![image](https://github.com/baker-Xie/CarND-Traffic-Sign-Classifier/raw/master/pic/bumpyRoad.jpg) ![image](https://github.com/baker-Xie/CarND-Traffic-Sign-Classifier/raw/master/pic/caution.jpg) 
+![image](https://github.com/baker-Xie/CarND-Traffic-Sign-Classifier/raw/master/pic/keepRight.jpg) ![image](https://github.com/baker-Xie/CarND-Traffic-Sign-Classifier/raw/master/pic/noEntry.jpg)
 
 Here are the results of the prediction:
 

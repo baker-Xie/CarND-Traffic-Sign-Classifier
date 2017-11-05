@@ -22,13 +22,13 @@ I used the numpy/pandas library to calculate summary statistics of the traffic s
 
 Here is an exploratory visualization of the data set. 
 
-![alt text][sources/1.png]
+![image](https://github.com/baker-Xie/CarND-Traffic-Sign-Classifier/sourecs/1.png)
 
-![alt text][sources/3.png]
+![image](https://github.com/baker-Xie/CarND-Traffic-Sign-Classifier/sourecs/3.png)
 
 It is a bar chart showing how many images in each categorys.
 
-![alt text][sources/2.png]
+![image](https://github.com/baker-Xie/CarND-Traffic-Sign-Classifier/sourecs/2.png)
 
 ### Design and Test a Model Architecture
 

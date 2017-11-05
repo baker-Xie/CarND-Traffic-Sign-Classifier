@@ -26,14 +26,12 @@ It is a bar chart showing how many images in each categorys.
 
 ### Design and Test a Model Architecture
 
-####1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
-
 As a first step, I didn't convert the RGB to grayscale because I think the RGB information is very useful.
 
 Then, I decided to generate more training data because：
-(1) I only get a 93% classification rate in the original image data and the original Le-Net.
-(2) So I modified the Le-Net (increase the depth of filters and the size of Fully Connected Layer). Generally, a more complex network will get a higher accuracy.
-(3) In order to prevent over-fitting and make the network more robust, I need to create more training examples.
+* I only get a 93% classification rate in the original image data and the original Le-Net.
+* So I modified the Le-Net (increase the depth of filters and the size of Fully Connected Layer). Generally, a more complex network will get a higher accuracy.
+* In order to prevent over-fitting and make the network more robust, I need to create more training examples.
 
 To add more data to the the data set, I used translation because it's very easy to realize.
 
